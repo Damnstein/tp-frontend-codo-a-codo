@@ -95,3 +95,52 @@ footer h5 {
     display: flex;
     justify-content: space-around;
 }
+@media screen and (max-width: 984px) {
+    .section-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .section-1 div {
+        align-items: center;
+    }
+    footer {
+        font-size: 1.5em;
+    }
+    .lang {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .enlaces {
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 522px) {
+    header {
+        padding-bottom: 1em;
+        flex-direction: column;
+    }   
+}
+
+@media screen and (max-width: 464px) {
+    .input-container {
+        display: flex;
+        flex-direction: column;
+    }
+    header a {
+        margin-top: 1em;
+    }
+    footer{
+        text-align: center;    
+    }
+    .lang {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .lang a {
+        margin: auto;
+    }
+    .enlaces {
+        flex-direction: column;
+        align-items: center;
+    }   
+}
