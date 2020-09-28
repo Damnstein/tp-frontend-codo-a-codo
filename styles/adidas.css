@@ -111,6 +111,7 @@ footer h5 {
         grid-template-columns: 1fr;
     }
     .section-1 div {
+        flex-direction: row;
         align-items: center;
     }
     footer {
@@ -138,6 +139,9 @@ footer h5 {
     }
     header a {
         margin-top: 1em;
+    }
+    .section-1 div {
+        flex-direction: column;
     }
     footer{
         text-align: center;    
