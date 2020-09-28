@@ -71,7 +71,7 @@ header input {
 }
 iframe {
     width:80%;
-    max-height: 451px;
+    height: 451px;
 }
 footer {
     padding-top: 20px;
