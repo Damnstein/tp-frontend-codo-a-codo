@@ -104,8 +104,10 @@ footer {
     .social a {
         height: 40px;
     }
-    .social img{
-        width: 40px;
+    .social i{
+        color: black;
+        margin: 0 .5em;
+        font-size: 40px;
     }
     main p {
         background-color: #a0c1b866;
