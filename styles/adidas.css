@@ -63,6 +63,16 @@ header input {
     color: black;
     transition: background-color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1) ;
 }
+.video {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    padding: 2em 0;
+}
+iframe {
+    width:80%;
+    max-height: 451px;
+}
 footer {
     padding-top: 20px;
     font-family: Helvetica;
