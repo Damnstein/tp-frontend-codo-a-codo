@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: #a0c1b8;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: .2em;
+    font-size: 1.2em;
+}
+.logo-img {
+    width: 40%;
+    object-fit: contain;
+}
+.menu-img {
+    object-fit: contain;
+    width: 15%;
+}
+.menu-items {
+    display: none;
+}
+main {
+    background-color: #a0c1b880;
+}
+.formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+	color:#999;
+}
+.form-h4{
+    text-align: center;
+	color: #444;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.caja-1{
+    border-radius: 5px;
+	width: 70%;
+	height: 40px;
+	margin: 20px auto;
+	padding: 10px;
+	font-size: 14px;
+}
+.caja-2{
+    border-radius: 5px;
+	width: 70%;
+	height: 80px;
+	margin: 20px auto;
+	padding: 10px;
+	font-size: 14px;
+}
+.correr{
+    border-radius: 5%;
+	margin: 20px 20px;
+    padding: 10px;
+    background-color: #a0c1b866;
+}
+.datos-contacto{
+	list-style: none;
+	text-align: center;
+}
+.datos-contacto li{
+	color: #444;
+	padding-bottom: 5px;
+}
+.datos-contacto li i{
+	color: #85c34a;
+	font-size: 60px;
+}
+.limpia{
+	clear: both;
+}
+footer {
+    background-color: #a0c1b8;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.footer-container{
+    display: flex;
+}
+.social{
+    display: none;
+}
+.footer-container p {
+    font-size: 15px;
+    height: 1em;
+    align-self: flex-end;
+    margin: 0;
+    display: block;
+    position: absolute;
+    right: 5%;
+}
+
+@media screen and (min-width: 640px){
+    header {
+        padding: 10px;
+    }
+    .logo-img {
+        width: 20%;
+        object-fit: contain;
+    }
+    .menu-img {
+        display: none;
+    }
+    .menu-items {
+        display: flex;
+        align-items: center;
+    }
+    header ul {
+        display: flex;
+        flex-direction: column;
+    }
+    header li {
+        list-style: none;
+    }
+    header li a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 1.4em;
+        margin: 0 .5em;
+        padding: .25em
+    }
+    .social{
+        display: block;
+        position: absolute;
+        right: 5%;
+    }
+    .social a {
+        height: 40px;
+    }
+    .social img{
+        width: 40px;
+    }
+}
+@media screen and (min-width: 1024px){
+    header ul {
+        flex-direction: row;
+    }
+    header li a {
+        font-size: 1.5em;
+    }
+    header li a:hover {
+        color: white;
+        background-color: #0b4131;
+        border-radius: 10px;
+        transition: background-color 0.3s ease-in;
+    }
+    .form-h4{
+        font-size: 1.5em;
+    }
+    /* -------------------
+    ACOMODAR INPUTS
+    ----------------------*/
+    form {
+        height: 640px;
+    }
+    .caja-1{
+        display: flex;
+        margin: 20px 0;
+        width: 40%;
+    }
+    .caja-2{
+        display: flex;
+        width: 40%;
+        height: 80px;
+        margin: 20px 0;
+    }
+    .correr{
+        border-radius: 5%;
+        margin: 20px 20px;
+        padding: 10px;
+        background-color: #a0c1b866;
+    }
+    .datos-contacto{
+        list-style: none;
+        text-align: center;
+    }
+    .datos-contacto li{
+        color: #444;
+        padding-bottom: 5px;
+    }
+    .datos-contacto li i{
+        color: #85c34a;
+        font-size: 60px;
+    }
+    .limpia{
+        clear: both;
+    }
+    /* --------------------------------- */
+}

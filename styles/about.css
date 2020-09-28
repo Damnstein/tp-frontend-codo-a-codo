@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: #a0c1b8;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: .2em;
+    font-size: 1.2em;
+}
+.logo-img {
+    width: 40%;
+    object-fit: contain;
+}
+.menu-img {
+    object-fit: contain;
+    width: 15%;
+}
+.menu-items {
+    display: none;
+}
+main {
+    font-family: 'Secular One', sans-serif;
+    background-color: #a0c1b866;
+    /* background-image: url("../assets/img/logo_nike_2.jpg"); */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5%;
+}
+.lorem {
+    font-size: 3em;
+    padding-bottom: 50px;
+}
+.red{
+    color: #ff414d;
+    font-size: 1.2em;
+    letter-spacing: 8px;
+}
+.blue {
+    color: #0278ae;
+    font-size: 1.2em;
+    letter-spacing: 8px;
+}
+.yellow {
+    color: #f0a500;
+    font-size: 1.2em;
+    letter-spacing: 8px;
+}
+.main-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.main-container h2 {
+    font-size: 2em;
+}
+main img {
+    width: 50%;
+    object-fit: contain;
+    align-self: flex-start
+}
+footer {
+    background-color: #a0c1b8;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.footer-container{
+    display: flex;
+}
+.social{
+    display: none;
+}
+.footer-container p {
+    font-size: 15px;
+    height: 1em;
+    align-self: flex-end;
+    margin: 0;
+    display: block;
+    position: absolute;
+    right: 5%;
+}
+@media screen and (min-width: 640px){
+    header {
+        padding: 10px;
+    }
+    .logo-img {
+        width: 20%;
+        object-fit: contain;
+    }
+    .menu-img {
+        display: none;
+    }
+    .menu-items {
+        display: flex;
+        align-items: center;
+    }
+    header ul {
+        display: flex;
+        flex-direction: column;
+    }
+    header li {
+        list-style: none;
+    }
+    header li a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 1.4em;
+        margin: 0 .5em;
+        padding: .25em
+    }
+    .social{
+        display: block;
+        position: absolute;
+        right: 5%;
+    }
+    .social a {
+        height: 40px;
+    }
+    .social img{
+        width: 40px;
+    }
+}
+@media screen and (min-width: 1024px){
+    header ul {
+        flex-direction: row;
+    }
+    header li a {
+        font-size: 1.5em;
+    }
+    header li a:hover {
+        color: white;
+        background-color: #0b4131;
+        border-radius: 10px;
+    }
+}
